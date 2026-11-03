@@ -1,0 +1,85 @@
+# Amazon Sales & Revenue Analytics – End-to-End Data Analytics
+
+## 📌 Project Overview
+
+This project is an end-to-end data analytics project based on Amazon sales transaction data. It focuses on analyzing sales performance, revenue patterns, product categories, brand performance, customer purchasing behavior, order status, and geographical sales distribution.
+
+The analysis follows a complete data analytics workflow, starting with data cleaning and preparation using Python, followed by SQL-based business analysis and interactive Power BI visualization.
+
+The goal is to transform raw sales data into meaningful business insights that can support sales performance evaluation and data-driven business decisions.
+
+## 🎯 Business Objective
+
+The primary objective of this project is to understand Amazon sales performance and identify patterns that influence revenue, product performance, and customer purchasing behavior.
+
+The analysis focuses on questions such as:
+
+- Which product categories generate the highest sales?
+- Which brands contribute the most to overall revenue?
+- How do sales and order quantities change over time?
+- Which categories have the highest product demand?
+- How do discounts affect sales performance?
+- What is the contribution of tax and shipping costs to order value?
+- Which order statuses are most common across product categories?
+- Which cities and states generate higher sales?
+- How does seller performance vary across different categories?
+- Which areas may offer opportunities for improving sales performance?
+
+## 🛠️ Tools & Technologies
+
+- **Python** – Data cleaning, preparation, and data inspection
+- **Pandas** – Data manipulation and analysis
+- **PostgreSQL** – Database creation, data storage, and analysis
+- **SQL** – Business questions, aggregations, filtering, calculations, and sales analysis
+- **Power BI** – Interactive dashboard development, visualization, and business reporting
+
+## 🔄 Project Workflow
+
+**Kaggle Dataset → Python Data Cleaning → PostgreSQL → SQL Analysis → Power BI Dashboard → Business Insights & Recommendations**
+
+### 1. Data Cleaning & Preparation
+
+The Amazon sales dataset sourced from Kaggle was prepared using Python.
+
+The data preparation process included:
+
+- Reviewing the dataset structure
+- Checking missing and blank values
+- Identifying duplicate records
+- Reviewing column names and data types
+- Standardizing data where required
+- Preparing the cleaned dataset for database analysis
+
+### 2. Data Storage & SQL Analysis
+
+The cleaned Amazon sales dataset was imported into PostgreSQL and analyzed using SQL.
+
+Business-focused SQL analysis was performed to evaluate:
+
+- Sales and revenue performance
+- Product category performance
+- Brand-wise sales and quantity
+- Monthly sales trends
+- Monthly category-wise quantity
+- Order status distribution
+- Tax and shipping cost analysis
+- City-wise and state-wise sales performance
+- Seller performance
+- Product demand and order quantities
+
+SQL queries were used to summarize sales data, compare business performance, and identify important revenue and product trends.
+
+### 3. Power BI Dashboard
+
+The analyzed Amazon sales data was used to develop an interactive Power BI dashboard.
+
+The dashboard focuses on important business areas, including:
+
+- **Overall Sales** – Key sales and revenue performance indicators
+- **Category Performance** – Sales and quantity comparison across product categories
+- **Brand Analysis** – Brand-wise sales and product performance
+- **Revenue Analysis** – Revenue trends and order-value patterns
+- **Geographical Analysis** – Sales distribution across cities and states
+- **Order Analysis** – Order status and purchasing patterns
+
+The dashboard is designed to make key sales trends and performance indicators easier to understand
